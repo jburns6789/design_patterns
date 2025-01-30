@@ -1,0 +1,18 @@
+Loose Coupling
+    weak knowlwdge association between componemts, 
+    changes to one component least affect the behavior of others
+Seperation of Concerns
+    breaking architecture into tiers. modularization and encapsulation
+Law of Demeter
+    limited knowledge of other pertient units and no knowledge of unrelated units
+SOLID
+
+Single Responsiblity 
+
+Open/Closed
+
+Liskov Substitution
+
+Interface Seperation
+
+Dependency Inversion
