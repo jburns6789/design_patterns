@@ -1,0 +1,14 @@
+2025-02-04 13:09:36,782 - joels_logger - DEBUG - This is a debug message
+2025-02-04 13:09:36,782 - joels_logger - INFO - This is a infomessage
+2025-02-04 13:09:36,782 - joels_logger - WARNING - This is a warning message
+2025-02-04 13:09:36,782 - joels_logger - ERROR - This is a error message
+2025-02-04 13:09:36,782 - joels_logger - CRITICAL - This is a critical message
+2025-02-04 13:38:12,876 - joels_logger - DEBUG - DEBUG
+2025-02-04 13:38:12,876 - joels_logger - DEBUG - Warning
+2025-02-04 13:38:12,876 - joels_logger - DEBUG - Error
+2025-02-04 13:38:40,747 - joels_logger - DEBUG - DEBUG
+2025-02-04 13:38:40,747 - joels_logger - DEBUG - Warning
+2025-02-04 13:38:40,747 - joels_logger - DEBUG - Error
+2025-02-04 13:39:02,684 - joels_logger - DEBUG - DEBUG
+2025-02-04 13:39:02,684 - joels_logger - DEBUG - Warning
+2025-02-04 13:39:02,684 - joels_logger - DEBUG - Error

@@ -8,6 +8,26 @@
 #metaclasses allow us to customize the class creation process and modify class attributes, methods
 #or other properties before the class is actually created.
 
+#thread safe
+#critical section
+#race condition various numbers of threads are "racing" to change the data.
+#each change depending on timing the data states will be different
+#use a lock mechanism, threads are put into ques based on who gets the lock
+
+import threading
+
+class ThreadSafeSingleton:
+    _instance = None
+    _lock = threading.Lock()
+    def __new__(cls):
+        with cls._lock:
+            if not cls._instance:
+                cls._instance = super().__new__(cls)
+        return cls._instance
+    
+#s1 = ThreadSafeSingleton()
+
+
 #metaclass class factory
 
 #EAGER python implementation

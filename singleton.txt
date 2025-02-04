@@ -21,3 +21,8 @@ consistent usage
 flexibility and easy modification of initialization logic
 ease of expanding the setup and initialization of code
 better flow than a constrctor
+
+Thread safe implementation ---> Python thread safety must be taken into account
+If multiple threads try to create or access Singleton object at the same time,
+it can lead to race conditions, this can cause difficult to debug behavior.
+Dont always have to create a thread safe Singleton, but in some cases its important.
