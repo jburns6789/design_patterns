@@ -1,0 +1,31 @@
+Python function overrides
+
+__new__
+ static method responsible for creating and returning a new instance of a class
+ first step in instantiation process. typically overridden when you need to control
+ the object creation process
+
+__init__
+ instance method responsible for initializing objects attributes after is has been created
+ by __new__. __init__ method doesnt resturn a value and is called automatically
+ after the object is created. This method is typically overridden to define custom
+ atttribute initialization for the class
+
+__call__
+ instance method that allows a class's instances to be called as if they were functions
+
+Metaclass
+
+ __new__
+ since a metaclass is a class that creates other classes, __new__ in a metaclass is responsible
+ for creating and returing new class object
+
+__init__
+ responsible for initializing the new class object created by the metaclass, such as setting
+ class attributed or other class level properties
+
+__call__
+ allows instances of the metaclass(objects themselves) to br called as they were functions
+ executed when CREATING INSTANCES OF THE CLASSES CREATED BY THE MEATACLASS. By customizing this
+ method you can control how instances of thoses classes are created or returned
+

@@ -1,0 +1,23 @@
+creational design pattern,
+only one instance
+easy global access
+control how instantiated
+any critical region must be entered serially, think thread safety issues
+loggers, caching, database conections
+indications: control access to a shared resource
+contraindications you dont want global access for everything, singleton hides dependancies, harder to read code
+
+consider lazy construction, only created when first needed
+
+eager loading necessary if needed to be ready and loaded fast
+
+thread safety, critacal section must be locked
+
+
+
+get_instance()<--- Hint its a singleton class vs constructor
+
+consistent usage
+flexibility and easy modification of initialization logic
+ease of expanding the setup and initialization of code
+better flow than a constrctor
