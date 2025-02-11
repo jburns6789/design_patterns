@@ -1,0 +1,33 @@
+The traditional way of instantiating objects makes the code aware of the object types it creates
+and becomes strongly coupled with the type.
+
+Factory method is a creational design pattern that lets you abstract-out the creation
+logic of specific class instances, so it provides a mechanism for creation of objects without
+exposing the instantiation logic to the client.
+
+                        *** Two Main Points ***
+Objects are created by calling a factory method instead of calling a constructor.
+Objects are created through an abstraction and not a concretion.
+
+Factory Method Design pattern, objects are created without exposing the creation logic to 
+the caller and the caller refers to newly created object through a common interface.
+
+Caller only needs to know how to call the factory with what initialization data.
+
+content data can be used to initialize the instance.
+
+Advantage: cache objects in the factory for added efficiency.
+
+Strategy and Iterator often used with Factory, let subclasses return different types
+of iterators that are compatible with the collections.
+Can also be used in the Object Pool when creating cached objects of different sub types.
+
+When to use:
+When the caller can anticipate the types of objects it must create.
+When you have many objects of a common type
+
+Pros:
+Allows sub classes to choose the type of objects to create.
+Simple to implement
+Promotes loose coupling
+Single Responsbility Principal, Open Closed Principal
